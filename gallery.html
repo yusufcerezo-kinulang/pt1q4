@@ -3,6 +3,29 @@
 <head>
 <title>GALLERY</title>
 <link rel="stylesheet" href="style.css">
+<style>
+    .gallery {
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     justify-content: center;
+        }
+
+     .gallery-item {
+     text-align: center;
+        }
+
+     .gallery-item img {
+      width: 200px;
+      border-radius: 10px;
+      transition: transform 0.3s, opacity 0.3s;
+        }
+
+     .gallery-item img:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+        }
+</style>
 </head>
 <body>
 <nav>
@@ -13,15 +36,23 @@
 </nav>
 <div class="container">
 <div class="card">
-<h2>Origin of the Legend</h2>
-<p>
-The Legend of the Pineapple is a Filipino folktale that explains why pineapples have many “eyes.” It teaches children to be hardworking, obedient, and respectful to their parents.
-</p>
-<h2>Personal Reflection</h2>
-<p>
-This story taught me the importance of being responsible and helping my parents at home. I realized that being lazy can lead to negative consequences. The character of Pina reminds me that I should not take my family’s efforts for granted. Through this legend, I learned to appreciate the value of hard work and obedience. It inspired me to become more helpful and respectful in my daily life.
-</p>
+<h2>GALLERY: How STE changed me</h2>
+<div class="gallery">
+<div class="gallery-item">
+<img src="g77.jpg" alt="g7">
+<p>Grade 7, STE EXCELLENCE</p>
+</div>
+<div class="gallery-item">
+<img src="g88.jpg" alt="g8">
+<p>Grade 8, STE INTELLIGENCE</p>
+</div>
+<div class="gallery-item">
+<img src="g9.jpg" alt="g9">
+<p>Grade 9, STE ASSERTIVENESS</p>
+</div>
+</div>
 </div>
 </div>
 </body>
 </html>
+
