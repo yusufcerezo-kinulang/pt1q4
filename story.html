@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Tale</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.story-section {
+display: none;
+}
+</style>
+<script>
+function showPart(part) {
+document.getElementById("beginning").style.display = "none";
+document.getElementById("middle").style.display = "none";
+document.getElementById("ending").style.display = "none";
+document.getElementById(part).style.display = "block";
+}
+</script>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="story.html">The Story</a>
+<a href="about.html">Behind the Legend of A Story</a>
+<a href="profile.html">Meet the Coder</a>
+</nav>
+<div class="container">
+<h1>The Tale</h1>
+<button onclick="showPart('beginning')">Beginning</button>
+<button onclick="showPart('middle')">Middle</button>
+<button onclick="showPart('ending')">Ending</button>
+<div id="beginning" class="card story-section">
+<h2>Beginning</h2>
+<p>
+Long ago, there was a young girl named Pina who lived in a small house in the province with her mother. Their life was simple and peaceful, and their home was filled with love
+Pina’s mother loved her very much and took good care of her. However, Pina was lazy and did not like helping with household chores. She preferred playing instead of helping with cooking and cleaning.
+</p>
+<img src="images/forest.jpg" alt="A beautiful forest" width="500">
+</div>
+<div id="middle" class="card story-section">
+<h2>Middle</h2>
+<p>
+Every day, Pina’s mother asked her to help with different tasks. Whenever she was told to look for something, Pina would say, “Mother, I can’t find it,” even if it was right in front of her.
+Because of this, her mother became tired and sad. She felt that Pina did not appreciate her hard work. She kept reminding her daughter to be responsible and hardworking, but Pina did not listen.
+One day, Pina again failed to find something her mother asked for. Feeling very tired and angry, her mother said, “I wish you had many eyes so you could see everything!”
+ </p>
+</div>
+<div id="ending" class="card story-section">
+<h2>Ending</h2>
+<p>
+The next day, Pina’s mother looked for her, but she was nowhere to be found. Instead, a strange plant had grown in their yard, bearing a fruit covered with many “eyes.”
+The mother was surprised when she saw the fruit. She remembered what she had said to Pina the day before. She named the fruit pineapple because of its many eyes.
+She realized that the pineapple was a symbol and a lesson for everyone. From then on, it became a reminder for children to be hardworking, obedient, and respectful to their parents.
+</p>
+</div>
+</div>
+</body>
+</html>
